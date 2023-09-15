@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>db_app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="&COPY; 2022-2029">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/db_app.css">
+</head>
+
+<body>
+    <header>
+
+        <section>
+            <h1>Dynamic Web Programming</h1>
+            <h2>MEQ2</h2>
+            <p>Christian Decarie</p>
+        </section>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Best Flix and Chill Combo</h2>
+            <p>There's nothing more enjoyable than a chill night watching a great movie with fantastic food and an amazing drink. What is your favourite combo for a night of Flix and Chill?</p>
+        </section>
+        <section id="insert">
+            <form id="insert-form">
+                <fieldset>
+                    <legend>Your Favourite Movie, Food and Drink to Flix and Chill</legend>
+                    <p>
+                        <label for="full_name">Name:</label>
+                        <input type="text" name="full_name" />
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" />
+                    </p>
+                    <p>
+                        <label for="movie">favourite movie:</label>
+                        <input type="text" name="movie" />
+                    </p>
+                    <p>
+                        <label for="food">favourite food:</label>
+                        <input type="text" name="food" />
+                    </p>
+                    <p>
+                        <label for="drink">favourite drink:</label>
+                        <input type="text" name="drink" />
+                    </p>
+
+                    <section>
+                        <p>
+                            <a href="#" type="submit" id="submit">Click Here to Submit your Combo.</a>
+                        </p>
+                    </section>
+
+                </fieldset>
+
+            </form>
+        </section>
+
+        <section id="display"></section>
+
+    </main>
+
+    <footer>
+        <p>&COPY; 2023</p>
+    </footer>
+
+    <nav>
+        <a href="https://christian97.web582.com/db_app">dynamic</a>
+    </nav>
+
+    <script src="js/db_app.js"></script>
+
+</body>
+
+</html>
